@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://r63bykda781"]
+
+[ext_resource type="Script" path="res://addons/data_logger/main.gd" id="1_gm4ri"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="DataContainer" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 99.0
+offset_top = 58.0
+offset_right = 149.0
+offset_bottom = 108.0
+script = ExtResource("1_gm4ri")
