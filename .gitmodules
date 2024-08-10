@@ -1,3 +1,6 @@
 [submodule "godot4-graph2d"]
 	path = godot4-graph2d
 	url = git@github.com:LD2Studio/godot4-graph2d.git
+[submodule "godot-dataview"]
+	path = godot-dataview
+	url = git@github.com:karlak/godot-dataview.git
